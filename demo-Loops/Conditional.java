@@ -116,6 +116,63 @@ public class Conditional {
 
       System.out.println(dayName);
 
+
+      int card_num = 14;
+      String card_name = " ";
+
+      switch(card_num){
+        case 1:
+          card_name = "Ace";
+          break;
+        case 2:
+          card_name = "Two";
+          break;
+        case 3:
+          card_name = "Three";
+          break;
+        case 4:
+          card_name = "Four";
+          break;
+        case 5:
+          card_name = "Five";
+          break;
+        case 6:
+          card_name = "Six";
+          break;
+        case 7:
+          card_name = "Seven";
+          break;
+        case 8:
+          card_name = "Eight";
+          break;
+        case 9:
+          card_name = "Nine";
+          break;
+        case 10:
+          card_name = "Ten";
+          break;
+        case 11:
+          card_name = "Jack";
+          break;
+        case 12:
+          card_name = "Queen";
+          break;
+        case 13:
+          card_name = "King";
+          break;
+        default:
+          card_name = "no card";
+      }
+        System.out.println(card_name);
+      
+
+
+
+
+      
+
+
+
   }
   
 }
