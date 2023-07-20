@@ -73,6 +73,9 @@ public class Array{
     bytes[3] = -4;
     System.out.println(Arrays.toString(bytes));
 
+    //int[] numers = new int[]
+    
+
 
 
 

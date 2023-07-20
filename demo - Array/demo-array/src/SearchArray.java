@@ -23,6 +23,8 @@ public class SearchArray {
     System.out.println(Arrays.toString(chars1));
     //Arrays.toString() = for loop short form
 
+    //toCharArray() = very userful operation to change from string to array
+
     int[] arr11 = new int[] {100,5,20,-5,201};
 
     //find max value in arr1
