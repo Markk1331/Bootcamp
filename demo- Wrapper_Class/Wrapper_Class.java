@@ -16,7 +16,7 @@ public class Wrapper_Class {
     num2.toString();
     Integer.valueOf("123"); //int 123
     String s =num2.toString(); //"1000"
-    Integer i = i.valueOf("123");
+    //Integer i = i.valueOf("123");
     Integer num3 =4;
 
     if(num3.compareTo(3)>0){
