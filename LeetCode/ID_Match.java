@@ -13,7 +13,9 @@ public class ID_Match {
     int[] answer = new int[Length+1];
     char[] characters = c.toCharArray();
 
-    for(int i=0; i<Length; i++){
+    for(int i=0; i<=Length; i++){
+        System.out.println(i);
+        System.out.println(characters[i]);
         if(characters[i] == 'I'){
             answer[i] = down;
             down++;  
@@ -22,7 +24,8 @@ public class ID_Match {
             up --;
         }
     }
-    answer[Length] = down;
+    answer[Length] = down; //the last value needed to be declared because the for-loop i<length stops at when i =4; 
+    //which is the second last digit 
     System.out.println(Arrays.toString(answer));
 }
 }

@@ -19,35 +19,33 @@ public class JavaQuest14 {
 
   // Code a method here to return true if the integer is palindrome, otherwise false
   public static boolean palindrome(int num){
-    String numbers = String.valueOf(num);
-    int reminder= 0;
-    int temp = num;
-    int sum = 0;
+    String original = String.valueOf(num);
 
-    while(num>0){
-      reminder = num%10;
-      sum = (sum*10) + reminder;
-      num = num/10;
-    }
-  if(temp==sum){ 
-    return true;   
-  }else{    
-    return false;    
-  }
+    int length = original.length();
+    String reverse = "";
+      for ( int i = length - 1; i >= 0; i-- ){ 
+         reverse = reverse + original.charAt(i);  
+      }
+      if (original.equals(reverse)){
+         return true;  
+      }else {
+         return false;   
+
+      }
     }
 
   // Do not change anything in main method
   public static void main(String[] args) {
     boolean res = palindrome(1231); // true
-    // boolean res2 = palindrome(-121); // false
-    // boolean res3 = palindrome(1); // true
-    // boolean res4 = palindrome(22); // true
-    // boolean res5 = palindrome(1231); // false
+    boolean res2 = palindrome(-121); // false
+    boolean res3 = palindrome(1); // true
+    boolean res4 = palindrome(22); // true
+    boolean res5 = palindrome(1231); // false
     System.out.println(res);
-    // System.out.println(res2);
-    // System.out.println(res3);
-    // System.out.println(res4);
-    // System.out.println(res5);
+    System.out.println(res2);
+    System.out.println(res3);
+    System.out.println(res4);
+    System.out.println(res5);
   }
 }
 
