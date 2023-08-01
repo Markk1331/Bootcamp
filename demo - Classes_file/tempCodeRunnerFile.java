@@ -1,3 +1,7 @@
- @Override
-  public String toString(){
-    return this.header + this.body;
+
+      // public Edge[] getEdge(){
+      //   return this.edges;
+      // }
+    // public void setEdges(Edge[] edges){
+    //   this.edges = edges;
+    // }

@@ -16,7 +16,6 @@ public class Computer {
 
   public Computer(String color){
     this.color = color;
-
     //Constructor mode
     //must be NO RETURN
     //Constructor's name must be the same name as the file 
@@ -31,8 +30,6 @@ public class Computer {
   public String getColor(){
     return this.color;
   }
-
-
 
   public void setRam(int ram){
     this.ram = ram;
