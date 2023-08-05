@@ -1,3 +1,1 @@
-      // if(prices[i]>max ){
-      //   max = prices[i];
-      // }
+              System.out.println(charValue);

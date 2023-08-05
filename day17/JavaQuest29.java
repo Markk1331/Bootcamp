@@ -13,7 +13,20 @@ public class JavaQuest29 {
   }
 
   public static String separator(int n) {
-    // code here
+    StringBuilder sb1 = new StringBuilder();
+    int k =0;
+    char[] characters = String.valueOf(n).toCharArray();
+    for(int i=characters.length-1; i>=0;i--){
+      sb1.append(characters[i]);
+      k++;
+      if(k>2){
+        sb1.append(",");
+        k =0;
+      }
+    }
+      sb1.append("$").reverse();
+
+      return  sb1.toString();
   }
 
 }

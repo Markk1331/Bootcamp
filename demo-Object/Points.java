@@ -9,10 +9,10 @@ public class Points {
     this.y = y;
   }
 
-@Override
-public int HashCode(){
-  return Objects.hash(this.x, this.y);
-}
+// @Override
+// public int HashCode(){
+//   return Objects.hash(this.x, this.y);
+// }
 
   @Override
   public boolean equals(Object o){
@@ -36,6 +36,37 @@ public int HashCode(){
    System.out.println(p1.equals(p2));
     System.out.println(p1.equals(p3));
     System.out.println(p1.equals(p2));
-   
+
+    Long l = 1L;
+    int i = 1;
+    // unbox Long, and upcast int
+    System.out.println(l == i); // true, finally long vs long
+    // Big bug here
+    System.out.println(Objects.equals(l, i)); // false
+    
+    
+
+
+    
+    Points.print(10);
+//decleared long function and autodowncast to print int
+
+    if(Long.valueOf(100) < 101){
+
+    }
+    if(Boolean.valueOf(false)== false){
+      //right: false -> boolean
+      //left: boolean false -> boolean false 
+     // Boolean vs boolean
+    }
+
+    if(Boolean.valueOf(false).equals(false)){
+      //trust .equals method
+    }
+
+  }
+
+  private static void print(long l) {
+    System.out.println("i" + l);
   }
 }

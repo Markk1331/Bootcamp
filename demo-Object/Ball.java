@@ -1,13 +1,13 @@
 public class Ball {
   private String color;
-  public Ball(String color){
-    this.color = color;
+  public Ball(Colors red){
+    this.color = red;
   }
 
-@Override
-public int hashCode(){
-return Object.hash(this.color);
-}
+// @Override
+// public int hashCode(){
+// return Object.hash(this.color);
+// }
 
 
   @Override

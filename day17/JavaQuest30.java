@@ -16,6 +16,9 @@ Example 3:
 Input: num = 1248
 Output: 4
 Explanation: 1248 is divisible by all of its digits, hence the answer is 4. */
+
+import java.util.Arrays;
+
 public class JavaQuest30 {
   public static void main(String[] args) {
     System.out.println(countDigits(7)); //output : 1 
@@ -25,6 +28,15 @@ public class JavaQuest30 {
   }
 
   public static int countDigits(int num) {
-  
+  int count = 0;
+  char[] characters = String.valueOf(num).toCharArray();
+   //System.out.println(Arrays.toString(characters));
+  for(char c: characters){
+    if(num % (Integer.valueOf(c)-'0') ==0){
+      count += 1;
+    }
+  }
+  return count;
+ 
   }
 }
