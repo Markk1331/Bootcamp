@@ -8,11 +8,11 @@ public class Array_2D {
     //3 rows x 4 columns
     //convert int[3][4] into 2-D array, using 2 for-lops
     Random rand = new Random();
-    System.out.println(matrix.length); //3
+    System.out.println(matrix.length); //3 rows
     System.out.println(matrix[0].length); //4 coloumn length of row =0
 
-      for(int i =0; i<matrix.length;i++){
-        for(int j=0; j<matrix[0].length; j++){
+      for(int i =0; i<matrix.length;i++){ //rows
+        for(int j=0; j<matrix[0].length; j++){ //columns
           matrix[i][j] = new Random().nextInt(13);
         }
       }

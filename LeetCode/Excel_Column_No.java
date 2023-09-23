@@ -1,6 +1,6 @@
 public class Excel_Column_No {
   public static void main(String[] args) {
-    String columnTitle = ",.";
+    String columnTitle = "AA";
 
     int n = columnTitle.length();
     int sum = 0;
@@ -8,8 +8,9 @@ public class Excel_Column_No {
     for(int i=0; i<n; i++){
       if(columnTitle.charAt(i) < 65 || columnTitle.charAt(i) > 90  ){
         System.out.println("wrong");
+        break;
        }
-      sum = sum*26+columnTitle.charAt(i) - 'A' +1;
+      sum *= sum*26+columnTitle.charAt(i) - 'A' +1;
       
 
     }

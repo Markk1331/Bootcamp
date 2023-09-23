@@ -1,4 +1,3 @@
-package self_study_files;
 
 public class Split_method1 {
 

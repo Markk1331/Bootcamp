@@ -1,7 +1,7 @@
 public enum Colors {
   RED("#FF000"),
   BLUE("#00FF00"),
-  GREEN("#0000FF");
+  GREEN("#0000FF"), id;
 
   private String hexCode;
 

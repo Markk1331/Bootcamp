@@ -53,9 +53,9 @@ public void breath(){
     //move.run();
 
     Swimmable swimmable = new Studentz();
-    swimmable.swin();
+    swimmable.swim();
 
-    Person person = new Student();
+    Person person = new Studentz();
     person.breath();
     person.getAge();
 

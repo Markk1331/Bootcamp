@@ -51,7 +51,7 @@ public class Square {
     }
 
 public static void main(String[] args) {
-  Square10 square = new Square10(5);
+  Square square = new Square(5);
   Square10 square1 = new Square10(4);
   Square10 square2 = new Square10(6);
  

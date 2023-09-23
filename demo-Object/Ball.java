@@ -1,7 +1,7 @@
 public class Ball {
-  private String color;
-  public Ball(Colors red){
-    this.color = red;
+  String color;
+  public Ball(String string){
+    this.color = string;
   }
 
 // @Override

@@ -1,8 +1,8 @@
 public class Balll {
- private Colors color;
+ Colors color;
 
- public Balll(Colors color){
-  this. color = color;
+ public Balll(int i, Colorr blue){
+  this. color = i;
  }
 
  public Colors getColar(){
