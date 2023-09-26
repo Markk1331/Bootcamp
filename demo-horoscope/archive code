@@ -1,0 +1,139 @@
+/*
+   Storing all twelve horoscope into DB
+
+    */
+    //Aries
+  //   String urlAries = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=1" ;
+  //   String AriesHoroscope = JsoupCrawler.retrieveHoroscope(urlAries);
+  //   dailyTable AriesSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(AriesHoroscope)
+  //         .horoscopeName("Aries")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(AriesSaved, "Aries");
+
+  //   //Taurus
+  //   String urlTaurus = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=2";
+  //   String taurusHoroscope = JsoupCrawler.retrieveHoroscope(urlTaurus);
+  //   dailyTable taurusSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(taurusHoroscope)
+  //         .horoscopeName("Taurus")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(taurusSaved, "Taurus");
+
+  //     //Germini
+  //       String urlGermini = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=3";
+  //   String GerminiHoroscope = JsoupCrawler.retrieveHoroscope(urlGermini);
+  //   dailyTable GerminiSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(GerminiHoroscope)
+  //         .horoscopeName("Germini")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(GerminiSaved, "Germini");
+
+
+  //     //Cancer
+  //     String urlCancerl = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4";
+  //   String CancerHoroscope = JsoupCrawler.retrieveHoroscope(urlCancerl);
+  //   dailyTable CancerSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(CancerHoroscope)
+  //         .horoscopeName("Cancer")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(CancerSaved, "Cancer");
+
+  //     //Leo
+  //     String urlLeo = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=5";
+  //   String LeoHoroscope = JsoupCrawler.retrieveHoroscope(urlLeo);
+  //   dailyTable LeoSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(LeoHoroscope)
+  //         .horoscopeName("Leo")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(LeoSaved, "Leo");
+
+  //     //Virgo
+  //     String urlVirgo = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6";
+  //   String VirgoHoroscope = JsoupCrawler.retrieveHoroscope(urlVirgo);
+  //   dailyTable VirgoSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(VirgoHoroscope)
+  //         .horoscopeName("Virgo")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(VirgoSaved, "Virgo");
+
+  //     //Libra
+  //     String urlLibra = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=7";
+  //   String LibraHoroscope = JsoupCrawler.retrieveHoroscope(urlLibra);
+  //   dailyTable LibraSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(LibraHoroscope)
+  //         .horoscopeName("Libra")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(LibraSaved, "Libra");
+
+
+  //     //Scorpio
+  //  String urlScorpio = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=8";
+  //   String ScorpioHoroscope = JsoupCrawler.retrieveHoroscope(urlScorpio);
+  //   dailyTable ScorpioSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(ScorpioHoroscope)
+  //         .horoscopeName("Scorpio")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(ScorpioSaved, "Scorpio");
+
+  //     //Sagittarius
+  //           String urlSagittarius = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=9";
+  //   String SagittariusHoroscope = JsoupCrawler.retrieveHoroscope(urlSagittarius);
+  //   dailyTable SagittariusSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(SagittariusHoroscope)
+  //         .horoscopeName("Sagittarius")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(SagittariusSaved, "Sagittarius");
+
+  //     //Capricorn
+  //           String urlCapricorn = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=10";
+  //   String CapricornHoroscope = JsoupCrawler.retrieveHoroscope(urlCapricorn);
+  //   dailyTable CapricornSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(CapricornHoroscope)
+  //         .horoscopeName("Capricorn")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(CapricornSaved, "Capricorn");
+
+  //     //Aquarius
+  //           String urlAquarius = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=11";
+  //   String AquariusHoroscope = JsoupCrawler.retrieveHoroscope(urlAquarius);
+  //   dailyTable AquariusSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(AquariusHoroscope)
+  //         .horoscopeName("Aquarius")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(AquariusSaved, "Aquarius");
+
+  //     //Pisces     
+  //     String urlPisces = "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=12";
+  //   String PiscesHoroscope = JsoupCrawler.retrieveHoroscope(urlPisces);
+  //   dailyTable tPiscesSaved = dailyhoroscopeRepository
+  //         .save(dailyTable.builder()
+  //         .desciption(PiscesHoroscope)
+  //         .horoscopeName("Pisces")
+  //         .date(LocalDate.now())
+  //         .build());
+  //     webCrawlerService.save(tPiscesSaved, "Pisces");
+
+  
